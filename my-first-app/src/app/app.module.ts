@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { serverComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
+import { warningAlert } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 
 
@@ -11,7 +12,8 @@ import { ServersComponent } from './servers/servers.component';
   declarations: [
     AppComponent,
     serverComponent,
-    ServersComponent
+    warningAlert,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,
