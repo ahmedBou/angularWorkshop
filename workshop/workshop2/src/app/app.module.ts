@@ -4,13 +4,15 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { userField } from './dataBindingWs/databiding.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    userField
+    userField,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
