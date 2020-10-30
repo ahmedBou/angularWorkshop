@@ -17,9 +17,9 @@ Run ng e2e to execute the end-to-end tests via Protractor.
 ## Further help
 To get more help on the Angular CLI use ng help or go check out the Angular CLI README.
 
-# RecipesAndShoppingListProject
+# Project: Recipes And Shopping List
 
-### build a recipe book and shopping list app
+### build a recipe book and shopping list app.
 we're going to have two sections, shopping list and recipe book and we will be able to manage our recipes,
 view them in detail and also to manage our shopping list and even push ingredients from a recipe directly to the shopping list.
 
@@ -50,7 +50,8 @@ Here we might later also put each individual recipe into its own item though sin
 So this is generally how I approach this, for example recipe-list in a single item but this will become more clear once we actually implement these components.
 Now one last thing we should think about, which models will be use in this app? And with model, I simply mean which data.
 
-**Ingredient : Data**
+### Data: Model
+**Ingredient**
 So we certainly will need some representation for our ingredient.
 We will use ingredients a lot in the recipe book too, each recipe there has a couple of ingredients, so we should define how the ingredient looks like. 
 That is something which our application probably also needs, be clear about the data we're going to use and put it into its own class, so that we have our own type we can use later on and that we have a clear interface or definition of what your data looks like so that we can easily have our components talk with each other.
