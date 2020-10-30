@@ -10,6 +10,7 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     // new object properties based on this recipe blueprint, based on our class
+    new Recipe('name of recipe test', 'description of recipe', 'https://p1.pxfuel.com/preview/186/991/672/duck-japanese-noodles-ramen.jpg'),
     new Recipe('name of recipe test', 'description of recipe', 'https://p1.pxfuel.com/preview/186/991/672/duck-japanese-noodles-ramen.jpg')
   ];
   constructor() { }
