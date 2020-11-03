@@ -2,7 +2,7 @@
  <p *ngIf = "!isShow">{{ password }}</p> -->
 
  <!-- <button class="btn btn-primary" (click)="isShow = !isShow">Display Details</button> -->
- <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+ <button class="btn btn-primary" (click)="this.isShow = !this.isShow ">Display Details</button>
  <p *ngIf = "isShow">{{ password }}</p>
  <div *ngFor= "let logItem of log; let i= index;" 
  [ngStyle]="{backgroundColor: i>= 4 ? 'blue': 'white'}" 

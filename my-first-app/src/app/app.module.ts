@@ -7,6 +7,7 @@ import { serverComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { warningAlert } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
+import { AngularDebugComponent } from './angular-debug/angular-debug.component';
 
 
 
@@ -16,7 +17,8 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
     serverComponent,
     ServersComponent,
     warningAlert,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    AngularDebugComponent
   ],
   imports: [
     BrowserModule,
